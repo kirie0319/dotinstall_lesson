@@ -1,0 +1,50 @@
+/* common */
+/* small screen */
+
+body {
+  margin: 0;
+}
+
+aside {
+  display: none;
+}
+
+.image {
+  background: purple;
+  height: 100px;
+}
+
+.text {
+  background: pink;
+  height: 100px;
+}
+
+/* midium screen */
+@media (min-width: 600px) {
+  section {
+    display: flex;
+  }
+
+  .image {
+    width: 200px;
+    background: green;
+  }
+
+  .text {
+    flex: 1;
+  }
+}
+
+/* large screen */
+@media (min-width: 800px) {
+  section {
+    width: 800px;
+    margin: 0 auto;
+  }
+
+  aside {
+    display: block;
+    background: skyblue;
+    width: 160px;
+  }
+}

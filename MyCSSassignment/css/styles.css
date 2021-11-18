@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-0deg, #ffffff,  #bfbfbf) fixed;
+}
+
+
+
+
+.text {
+  font-size: 200px;
+  font-weight: bold;
+  color: transparent;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-image: url("../img/matrix.png");
+}

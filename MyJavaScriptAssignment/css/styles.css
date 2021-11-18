@@ -1,0 +1,46 @@
+.container {
+  background-color: #797792;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.l_eye {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  margin-top: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.l_eye_content {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 25%;
+  left: 25%;
+}
+
+.r_eye {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  margin-top: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.r_eye_content {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 25%;
+  left: 25%;
+}
